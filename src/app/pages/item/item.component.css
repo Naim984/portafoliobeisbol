@@ -1,0 +1,30 @@
+
+
+#menu {
+  position: fixed;
+  width: 18%;
+ }
+ #menu li {
+  list-style-type:none;
+  margin-left: -2em;
+  text-align: center;
+ }
+ #menu a{
+  display: block;
+  border: 2px gray outset;
+  text-decoration: none;
+   color: black;
+ }
+ #menu a:hover{
+  color: white;
+  background-color: black;
+  border: 2px gray inset;
+ }
+ #menu h2 {
+  text-align: center;
+ }
+
+p {
+  text-align: justify;
+
+}
