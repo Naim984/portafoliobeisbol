@@ -20,7 +20,7 @@
   background-color: black;
   border: 2px gray inset;
  }
- #menu h2 {
+ .titulo {
   text-align: center;
  }
 
