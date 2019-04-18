@@ -16,6 +16,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
 import { MascotasComponent } from './pages/mascotas/mascotas.component';
+import { RinconComponent } from './pages/rincon/rincon.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MascotasComponent } from './pages/mascotas/mascotas.component';
     AboutComponent,
     ItemComponent,
     MascotasComponent,
-    SearchComponent
+    SearchComponent,
+    RinconComponent
   ],
   imports: [
     BrowserModule,
