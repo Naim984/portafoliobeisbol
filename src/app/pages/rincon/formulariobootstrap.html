@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicios</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="formulariojs.js"></script>
+    <style>
+      .box {
+        width: 350px;
+        height: 350px;
+        float: left;
+        margin: 20px;
+      }
+      .dashed{
+        border: 3px dashed black;
+        padding: 5px;
+      }
+      #error_nombre{
+          font-size: red;
+          background: red;
+
+      }
+    </style>
+</head>
+    <body>
+            <div class="box">    
+               <form action="#" method="POST" id="formulario" onsubmit="return false;">
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre"name="nombre"id="nombre">
+                    <span id="error_nombre"></span>  
+                    </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellidos"name="apellidos"id="apellidos">
+                                    
+                      </div>
+                      <div class="col">
+                            <input type="number" class="form-control" placeholder="Edad"name="edad"id="edad">
+                          </div>
+                    </div>
+                    <input type="submit" value="Enviar"id="submit"/>
+                </div>
+                <div class="box dashed">
+                  <h3>Informacion del usuario</h3>
+       <hr>
+         <p id="p_nombre">
+           Nombre: <span></span>
+         </p>
+          <p id="p_apellidos">
+           Apellidos: <span></span>
+          </p>
+          <p id="p_edad">
+           Edad: <span></span>
+          </p>
+       </div>
+                  </form>
+                  </div>
+                  </body>
+                  </html>
