@@ -18,6 +18,7 @@ import { SearchComponent } from './pages/search/search.component';
 import { MascotasComponent } from './pages/mascotas/mascotas.component';
 import { RinconComponent } from './pages/rincon/rincon.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

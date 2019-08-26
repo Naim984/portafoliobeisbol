@@ -15,7 +15,7 @@ const app_routes: Routes = [
     { path: 'item', component: ItemComponent },
     { path: 'rincon', component: RinconComponent},
     { path: 'mascotas', component: MascotasComponent },
-    { path: 'search/:termino', component: SearchComponent },
+    { path: 'search', component: SearchComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
